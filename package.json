@@ -2,9 +2,9 @@
   "name": "my-library-starter",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "build/index.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest src/ --coverage --verbose",
     "build": "cross-env NODE_ENV=production babel --out-dir build --ignore __tests__ --copy-files src/",
     "lint": "eslint src/"
   },
