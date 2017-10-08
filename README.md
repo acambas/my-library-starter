@@ -1,5 +1,7 @@
 #Library Starter
 
+[![CircleCI](https://circleci.com/gh/acambas/my-library-starter.svg?style=svg)](https://circleci.com/gh/acambas/my-library-starter)
+
 This is a boilerplate for javascript library
 it has:
 - eslint for linting
