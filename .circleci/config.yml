@@ -3,12 +3,12 @@ jobs:
   build:
     working_directory: ~/my-library-starter
     docker:
-      - image: circleci/node:8
+      - image: circleci/node:10
     steps:
       - checkout
       - run:
           name: Install dependencies
-          command: npm install
+          command: yarn install
       - run:
           name: Build
           command: npm run build
@@ -23,7 +23,7 @@ jobs:
   test:
     working_directory: ~/my-library-starter
     docker:
-      - image: circleci/node:8
+      - image: circleci/node:10
     steps:
       - run:  
           name: save SHA to a file
