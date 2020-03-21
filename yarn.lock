@@ -4157,10 +4157,10 @@ prettier-standard@^9.1.1:
     prettierx "0.3.0"
     stream-mock "1.2.0"
 
-prettier@^1.14.3:
-  version "1.16.1"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.16.1.tgz#534c2c9d7853f8845e5e078384e71973bd74089f"
-  integrity sha512-XXUITwIkGb3CPJ2hforHah/zTINRyie5006Jd2HKy2qz7snEJXl0KLfsJZW/wst9g6R2rFvqba3VpNYdu1hDcA==
+prettier@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.0.0.tgz#9c8fdba0aeae3faf0d9d9391623ac4f9321a4455"
+  integrity sha512-vI55PC+GFLOVtpwr2di1mYhJF36v+kztJov8sx3AmqbfdA+2Dhozxb+3e1hTgoV9lyhnVJFF3Z8GCVeMBOS1bA==
 
 prettierx@0.3.0:
   version "0.3.0"
